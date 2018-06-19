@@ -14,10 +14,10 @@ const menuB = [
 ];
 
 
+// In real practice you must read chrome.contextMenus.ACTION_MENU_TOP_LEVEL_LIMIT
+// See more: https://developer.chrome.com/apps/contextMenus
+
 const rootMenu = [
-  //
-  // In real practice you must read chrome.contextMenus.ACTION_MENU_TOP_LEVEL_LIMIT
-  //
   { id: 'ItemA', menu: menuA },
   { id: 'ItemB', menu: menuB },
   { id: 'ItemC', act: (info, tab) => { console.log('ItemC', info, tab, info.menuItemId); alert('ItemC') } },
@@ -25,8 +25,10 @@ const rootMenu = [
   { id: 'ItemE', act: (info, tab) => { console.log('ItemE', info, tab, info.menuItemId); alert('ItemE') } },
 ];
 
-
 const listeners = {};
+
+// Contexts: 'all', 'page', 'frame', 'selection', 'link', 'editable', 'image', 'video', 'audio', 'launcher', 'browser_action', or 'page_action'
+// See more: https://developer.chrome.com/apps/contextMenus
 
 const contexts = ['browser_action'];
 
