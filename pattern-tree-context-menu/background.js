@@ -34,9 +34,7 @@ const addMenu = (menu, root = null) => {
 
   for (let item of menu) {
 
-    let id = item.id;
-    let menu = item.menu;
-    let act = item.act;
+    let {id, menu, act} = item;
 
     chrome.contextMenus.create({
       id: id,
