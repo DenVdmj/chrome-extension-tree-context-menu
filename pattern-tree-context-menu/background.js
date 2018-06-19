@@ -36,6 +36,7 @@ const addMenu = (menu, root = null) => {
 
     let id = item.id;
     let menu = item.menu;
+    let act = item.act;
 
     chrome.contextMenus.create({
       id: id,
@@ -44,7 +45,9 @@ const addMenu = (menu, root = null) => {
       parentId: root
     });
 
-    listeners[id] = item;
+    if (act) {
+      listeners[id] = act;
+    }
 
     if (menu) {
       addMenu(menu, id);
@@ -59,12 +62,4 @@ chrome.contextMenus.onClicked.addListener((info, tab) => {
   console.log('Activate „chrome.contextMenus -> onClicked Listener“', info, tab);
   listeners[info.menuItemId] (info, tab);
 });
-
-
-
-
-
-
-
-
 
