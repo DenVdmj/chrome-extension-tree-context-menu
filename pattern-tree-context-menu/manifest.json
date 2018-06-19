@@ -1,0 +1,24 @@
+{
+  "manifest_version": 2,
+  /*"name": "__MSG_ext_name__",*/
+  "name": "Example of plain context menu",
+  "description": "__MSG_ext_description__",
+  "default_locale": "en",
+  "version": "0.1",
+  "icons": { "128": "icon.png" },
+  "browser_action": {
+    "default_icon": { "128": "icon.png" },
+    "default_title": "__MSG_ext_action_title__"
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": true
+  },
+  "permissions": [
+    "management",
+    "contextMenus",
+    "activeTab",
+    "tabs",
+    "<all_urls>"
+  ]
+}

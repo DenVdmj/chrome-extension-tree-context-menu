@@ -1,0 +1,92 @@
+﻿{
+  "ext_name": {
+    "message": "Example of context menus"
+  },
+  "ext_description": {
+    "message": "Just example of context menus"
+  },
+  "ext_action_title": {
+    "message": "Action of main item of menu"
+  },
+  "ItemA": {
+    "message": "Action of „Item A“ of menu"
+  },
+  "ItemA": {
+    "message": "Action of „Item A“ of menu"
+  },
+  "ItemB": {
+    "message": "Action of „Item B“ of menu"
+  },
+  "ItemC": {
+    "message": "Action of „Item C“ of menu"
+  },
+  "ItemD": {
+    "message": "Action of „Item D“ of menu"
+  },
+  "ItemE": {
+    "message": "Action of „Item E“ of menu"
+  },
+  "ItemF": {
+    "message": "Action of „Item F“ of menu"
+  },
+  "ItemG": {
+    "message": "Action of „Item G“ of menu"
+  },
+  "ItemH": {
+    "message": "Action of „Item H“ of menu"
+  },
+  "ItemI": {
+    "message": "Action of „Item I“ of menu"
+  },
+  "ItemJ": {
+    "message": "Action of „Item J“ of menu"
+  },
+  "ItemK": {
+    "message": "Action of „Item K“ of menu"
+  },
+  "ItemL": {
+    "message": "Action of „Item L“ of menu"
+  },
+  "ItemM": {
+    "message": "Action of „Item M“ of menu"
+  },
+  "ItemN": {
+    "message": "Action of „Item N“ of menu"
+  },
+  "ItemO": {
+    "message": "Action of „Item O“ of menu"
+  },
+  "ItemP": {
+    "message": "Action of „Item P“ of menu"
+  },
+  "ItemQ": {
+    "message": "Action of „Item Q“ of menu"
+  },
+  "ItemR": {
+    "message": "Action of „Item R“ of menu"
+  },
+  "ItemS": {
+    "message": "Action of „Item S“ of menu"
+  },
+  "ItemT": {
+    "message": "Action of „Item T“ of menu"
+  },
+  "ItemU": {
+    "message": "Action of „Item U“ of menu"
+  },
+  "ItemV": {
+    "message": "Action of „Item V“ of menu"
+  },
+  "ItemW": {
+    "message": "Action of „Item W“ of menu"
+  },
+  "ItemX": {
+    "message": "Action of „Item X“ of menu"
+  },
+  "ItemY": {
+    "message": "Action of „Item Y“ of menu"
+  },
+  "ItemZ": {
+    "message": "Action of „Item Z“ of menu"
+  }
+}
